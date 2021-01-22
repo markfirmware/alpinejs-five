@@ -1,0 +1,12 @@
+ports:
+  - port: 8080
+    onOpen: open-browser
+
+tasks:
+  - name: preview
+    command: npx servor docs --reload
+
+vscode:
+  extensions:
+    - adrianwilczynski.alpine-js-intellisense@1.2.0:T6y6PGhEC+LOoW97flsqpw==
+    - andrewmcodes.tailwindcss-extension-pack@1.1.4:OKalRx6EeLk3VvP4ZaKgyA==
